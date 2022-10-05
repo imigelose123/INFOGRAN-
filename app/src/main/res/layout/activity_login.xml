@@ -37,7 +37,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="text"
-                android:hint="Nombre de usuario">
+                android:hint="@string/nombre_de_usuario">
 
 
             </com.google.android.material.textfield.TextInputEditText>
@@ -52,7 +52,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPassword"
-                android:hint="Contrasena">
+                android:hint="@string/contrasena">
 
 
             </com.google.android.material.textfield.TextInputEditText>
