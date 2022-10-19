@@ -3,4 +3,6 @@
     <string name="nombre_de_usuario">Nombre de usuario</string>
     <string name="contrasena">Contrasena</string>
     <string name="button_Text">LOGIN</string>
+    <string name="no_tienes_cueta">" No tienes cueta? "</string>
+    <string name="crea_una_aqui">Crea una aqui</string>
 </resources>

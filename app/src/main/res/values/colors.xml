@@ -13,4 +13,6 @@
     <color name="editText_colorControlNormal">#FFFFFF</color>
     <color name="editText_colorControlActivated">#FFFFFF</color>
     <color name="button_textColor">#FFFFFF</color>
+    
+    <color name="TextView_TextColor">#FFFFFF</color>
 </resources>

@@ -16,19 +16,20 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-
+            android:gravity="center"
             android:layout_weight="0.6">
+
             <ImageView
-                android:layout_margin="60dp"
+
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/imageView_layoutHeigth"
                 android:src="@drawable/infogram"/>
         </RelativeLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_weight="0.4"
+
         android:layout_marginLeft="@dimen/login_horizontalMargin"
         android:layout_marginRight="@dimen/login_horizontalMargin">
 
@@ -64,14 +65,48 @@
 
             </com.google.android.material.textfield.TextInputEditText>
         </com.google.android.material.textfield.TextInputLayout>
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/button_Text"
             android:layout_marginTop="@dimen/login_marginTop"
             android:theme="@color/design_default_color_primary_dark"/>
-    
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            android:fillViewport="true"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+
+            <TextView
+                android:id="@+id/no_tienes_cuenta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/no_tienes_cueta"
+                android:textColor="@color/button_textColor"
+                android:textSize="@dimen/textView_textSize"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/crea_una_aqui"
+                android:textColor="@color/button_textColor"
+                android:textStyle="bold"
+                android:layout_toRightOf="@id/no_tienes_cuenta"
+                android:textSize="@dimen/textView_textSize"
+                android:onClick="goCreateAccount"/>
+
+        </RelativeLayout>
+
     </LinearLayout>
+
+
     </LinearLayout>
 
 
