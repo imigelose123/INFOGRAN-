@@ -5,4 +5,10 @@
     <string name="contrasena">Password</string>
     <string name="button_Text">LOGIN</string>
     <string name="no_tienes_cueta"> "No tienes cueta? "</string>
+    <string name="correo" />
+    <string name="Nombre" />
+    <string name="nombre" />
+    <string name="usuario" />
+    <string name="confirme_contrasena" />
+    <string name="button_text_create_account">UNETE</string>
 </resources>
