@@ -88,14 +88,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/no_tienes_cueta"
-                android:textColor="@color/button_textColor"
+                android:textColor="@color/editText_White"
                 android:textSize="@dimen/textView_textSize"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/crea_una_aqui"
-                android:textColor="@color/button_textColor"
+                android:textColor="@color/editText_White"
                 android:textStyle="bold"
                 android:layout_toRightOf="@id/no_tienes_cuenta"
                 android:textSize="@dimen/textView_textSize"

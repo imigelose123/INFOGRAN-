@@ -6,7 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".CreateAccountActivity">
 
-    <include layout="@layout/appbar_toolbar"
+    <include layout="@layout/appbar_toolbar">
+
+    </include>
 
     <ScrollView
         android:layout_width="match_parent"
