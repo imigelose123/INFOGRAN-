@@ -6,6 +6,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.infogran.view.ContaierActivity;
+import com.example.infogran.view.CreateAccountActivity;
+
 public class LoginActivity extends AppCompatActivity {
 
     @Override
@@ -18,4 +21,8 @@ public class LoginActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void login(View view) {
+        Intent intent = new Intent(this, ContaierActivity.class);
+        startActivity(intent);
+    }
 }

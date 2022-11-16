@@ -16,4 +16,6 @@
     <string name="hace_cardview">Hace</string>
     <string name="dias_cardview">4 dias</string>
     <string name="me_gusta_cardview">10 me gusta</string>
+    <string name="buscar_item">buscar</string>
+    <string name="yo_item">Yo</string>
 </resources>

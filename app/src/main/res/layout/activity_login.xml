@@ -70,7 +70,8 @@
             android:layout_height="wrap_content"
             android:text="@string/button_Text"
             android:layout_marginTop="@dimen/login_marginTop"
-            android:theme="@color/design_default_color_primary_dark"/>
+            android:theme="@color/design_default_color_primary_dark"
+            android:onClick="login"/>
 
         <ScrollView
             android:layout_width="match_parent"

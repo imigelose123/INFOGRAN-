@@ -11,4 +11,8 @@
     <dimen name="carner_radius_cardview">20dp</dimen>
     <dimen name="margin_cardview">10dp</dimen>
     <dimen name="padding_card_view">10dp</dimen>
+    <dimen name="paddingBottom_container">10dp</dimen>
+    <dimen name="heigth_botton_navigation_view">70dp</dimen>
+    <dimen name="heigth_bottom_navigation_view">70dp</dimen>
+    <dimen name="margin_fad">30dp</dimen>
 </resources>
