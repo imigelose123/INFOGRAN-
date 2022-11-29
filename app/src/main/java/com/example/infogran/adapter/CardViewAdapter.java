@@ -1,6 +1,7 @@
 package com.example.infogran.adapter;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,6 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.infogran.R;
 import com.example.infogran.model.Image;
+import com.example.infogran.view.ImageDetailActivity;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
@@ -42,10 +44,19 @@ public class CardViewAdapter extends RecyclerView.Adapter<CardViewAdapter.CardVi
         Image image = images.get(position);
         //imagen
         Picasso.get().load(image.getUrlImagen()).into(holder.imageCardView);
-
         holder.usernameCardView.setText(image.getUsername());
         holder.cantidadDiasCardView.setText(image.getCatindadDias());
         holder.cantidadMeGustaCardView.setText(image.getCantidadMeGusta());
+
+        //oncliklistener
+        holder.imageCardView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(activity, ImageDetailActivity.class);
+                activity.startActivity(intent);
+
+            }
+        });
 
     }
 
