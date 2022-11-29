@@ -18,4 +18,5 @@
     <string name="me_gusta_cardview">10 me gusta</string>
     <string name="buscar_item">buscar</string>
     <string name="yo_item">Yo</string>
+    <string name="title_gome_fragment">Home</string>
 </resources>

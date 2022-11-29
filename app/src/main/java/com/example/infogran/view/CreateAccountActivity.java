@@ -21,6 +21,7 @@ public class CreateAccountActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        getSupportActionBar().setTitle(titulo);
         getSupportActionBar().setDisplayHomeAsUpEnabled(botomSubir);
     }
 }
