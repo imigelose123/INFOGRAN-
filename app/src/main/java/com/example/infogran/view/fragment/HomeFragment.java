@@ -104,17 +104,18 @@ public class HomeFragment extends Fragment {
     public ArrayList<Image> buidImages() {
         ArrayList<Image> images = new ArrayList<>();
 
-        images.add(new Image("", "Carlos Valvidia", "1 dias", "1 me gusta"));
-        images.add(new Image("", "juan Valvidia", "3 dias", "4 me gusta"));
-        images.add(new Image("", "pedro Valvidia", "4 dias", "6 me gusta"));
-        images.add(new Image("", "juna Valvidia", "21 dias", "2 me gusta"));
-        images.add(new Image("", "ale Valvidia", "12 dias", "4 me gusta"));
-        images.add(new Image("", "dani Valvidia", "0 dias", "6 me gusta"));
-        images.add(new Image("", "roberto Valvidia", "8 dias", "8 me gusta"));
-        images.add(new Image("", "lupe Valvidia", "2 dias", "5 me gusta"));
-        images.add(new Image("", "ariel Valvidia", "5 dias", "1 me gusta"));
-        images.add(new Image("", "chamo Valvidia", "5 dias", "9 me gusta"));
+        images.add(new Image("https://cdn.bolivia.com/sdi/2018/12/22/5-atractivos-turisticos-de-cochabamba-que-debes-conocer-696731.jpg", "Carlos Valvidia", "1 dias", "1 me gusta"));
+        images.add(new Image("https://boliviaturistica.com/wp-content/uploads/2019/06/top-mejores-destinos-bolivia-tiahuanaco.jpg", "juan Valvidia", "3 dias", "4 me gusta"));
+        images.add(new Image("https://www.boliviaentusmanos.com/imagenes/ciudades/650x400/concepcion.jpg", "pedro Valvidia", "4 dias", "6 me gusta"));
+        images.add(new Image("https://mindfultravelbysara.com/wp-content/uploads/2017/12/bolivia-lugares-para-visitar.jpg", "juna Valvidia", "21 dias", "2 me gusta"));
+        images.add(new Image("https://www.ahoraelpueblo.bo/wp-content/uploads/2022/05/las-replicas.jpg", "ale Valvidia", "12 dias", "4 me gusta"));
+        images.add(new Image("https://cdn.bolivia.com/sdi/2022/09/20/los-mejores-lugares-turisticos-de-santa-cruz-1068075.jpg", "dani Valvidia", "0 dias", "6 me gusta"));
+        images.add(new Image("https://www.boliviaentusmanos.com/imagenes/ciudades/650x400/oruro.jpg", "roberto Valvidia", "8 dias", "8 me gusta"));
+        images.add(new Image("https://boliviamia.net/Images/Tourpics/atop-tiwanaku-03.jpg", "lupe Valvidia", "2 dias", "5 me gusta"));
+        images.add(new Image("https://www.boliviaentusmanos.com/imagenes/ciudades/650x400/vinto-albian.jpg", "ariel Valvidia", "5 dias", "1 me gusta"));
+        images.add(new Image("https://rutaviajera.seguroparaviaje.com/wp-content/uploads/2021/09/Lugares-turisticos-IMPERDIBLES-para-visitar-en-Bolivia.jpg", "chamo Valvidia", "5 dias", "9 me gusta"));
 
+        return images;
     }
 }
 
