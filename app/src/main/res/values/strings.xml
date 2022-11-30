@@ -27,4 +27,5 @@
     <string name="text_cantidad_megusta_image_detail">10</string>
     <string name="text_title_image_detail">Todo copas en la playa</string>
     <string name="text_content_image_detail">1.- MACIMIENTO Y EXPANSION DE LA LETRA EN LA COM GRAFICA. EL PRIMATE ERGUIDO-LA LIBERACION DE LAS MANOS EL TRAZO.EMERGENCIA DE LA EXPRESION GRAFICA DE LA REPRESENTACION PERCEPTUAL A LA PRESENTACIO Y VERBAL 2.-EL PRINCIPIO GUTENBERG LOS TRES INVENTORES DE LA TIPOGRAFIA LAS CUATRO FUNCIONES-SIGNOS DE LA LETRA:MAYUSCUL LAS CURCIVA Y ORNAMENTADA</string>
+    <string name="transitionName_imageCardView">transitionName_imageCardView</string>
 </resources>
